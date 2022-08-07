@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.board{
+  border: 2px solid darkgray;
+  width: 620px;
+  height: 360px;
+  background-color: lightgrey;
+}
+h1{
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(160, 160, 160);
+  border-bottom: 1 solid darkslategrey;
+  margin-bottom: 15px;
+}
+.dados{
+  margin-left: 20px;
+}
+.dados input{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+button{
+margin-top: 10px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.resultados{
+  padding: 0px 0px 0px 20px;
+  margin-top: 60px;
+}
+.resultados p{
+  margin-top: 10px;
+}
+footer{
+  background-color: #eeeeff;
+  font-family: 'Outfit', sans-serif;
+  height: 15vh;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+
+}
+footer img{
+  padding-top: 10px;
+  width: 30px;
+  margin-bottom: -10px;
+}
